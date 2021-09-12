@@ -92,6 +92,10 @@ namespace ConsoleApp2
             double TrLaukums = (devitais*devitais)/2;
             Console.WriteLine("Trijstūra laukums ir " + Math.Round(TrLaukums, 2) + " kvadrātcentimetri");
 
+            //-------------------------------------------
+
+
+
         }
     }
 }
