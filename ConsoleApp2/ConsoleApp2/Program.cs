@@ -82,6 +82,15 @@ namespace ConsoleApp2
             double astotais = double.Parse(yourNumber12);
             double Laukums = septitais * astotais;
             Console.WriteLine("Taisnstūra laukums ir " + Math.Round(Laukums,2) + " kvadrātcentimetri") ;
+            //-------------------------------------------------------------------------
+
+            Console.WriteLine("Vienādsānu trijstūra laukuma aprēķināšana");
+            Console.WriteLine("Lūdzu, ievadiet vienādsānu trijstūra katetes garumu centrimetros");
+            string yourNumber13 = Console.ReadLine();
+            double devitais = double.Parse(yourNumber13);
+
+            double TrLaukums = (devitais*devitais)/2;
+            Console.WriteLine("Trijstūra laukums ir " + Math.Round(TrLaukums, 2) + " kvadrātcentimetri");
 
         }
     }
