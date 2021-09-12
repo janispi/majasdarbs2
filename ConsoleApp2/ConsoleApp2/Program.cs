@@ -25,6 +25,27 @@ namespace ConsoleApp2
             //-------------------------------------------------
 
 
+            int maxNumber1 = 12;
+            int maxNumber2 = 25;
+
+            int maxResult = Math.Max(maxNumber1, maxNumber2);
+
+            Console.WriteLine(maxResult);
+
+            //------------------------------------------------
+
+
+            int maxNumber3 = 40;
+            int maxNumber4 = 11;
+
+            int minResult = Math.Min(maxNumber3, maxNumber4);
+
+            Console.WriteLine(minResult);
+
+            //-----------------------------------------------
+
+
+
 
 
         }
