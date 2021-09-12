@@ -69,6 +69,20 @@ namespace ConsoleApp2
             int Dalijums = piektais % sestais;
             Console.WriteLine("Skaitļu dalījuma atlikums ir " + (Dalijums));
 
+            //------------------------------------------------------
+
+            Console.WriteLine("Taisnstūra laukuma aprēķināšana");
+            Console.WriteLine("Lūdzu, ievadiet taisnstūra malu A centimetros");
+            string yourNumber11 = Console.ReadLine();
+            double septitais = double.Parse(yourNumber11);
+
+            Console.WriteLine("Lūdzu, ievadiet taisnstūra malu B centimetros");
+
+            string yourNumber12 = Console.ReadLine();
+            double astotais = double.Parse(yourNumber12);
+            double Laukums = septitais * astotais;
+            Console.WriteLine("Taisnstūra laukums ir " + Math.Round(Laukums,2) + " kvadrātcentimetri") ;
+
         }
     }
 }
