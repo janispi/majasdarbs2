@@ -25,28 +25,34 @@ namespace ConsoleApp2
             //-------------------------------------------------
 
 
-            int maxNumber1 = 12;
-            int maxNumber2 = 25;
-
-            int maxResult = Math.Max(maxNumber1, maxNumber2);
-
-            Console.WriteLine(maxResult);
-
-            //------------------------------------------------
 
 
-            int maxNumber3 = 40;
-            int maxNumber4 = 11;
+            Console.WriteLine("Lūdzu, ievadiet pirmo skaitli");
+            string yourNumber5 = Console.ReadLine();
+            int pirmais = int.Parse(yourNumber5);
 
-            int minResult = Math.Min(maxNumber3, maxNumber4);
+            Console.WriteLine("Lūdzu, ievadiet otro skaitli");
 
-            Console.WriteLine(minResult);
+            string yourNumber6 = Console.ReadLine();
+            int otrais = int.Parse(yourNumber6);
 
-            //-----------------------------------------------
+            int Lielakais = Math.Max(pirmais, otrais);
+            Console.WriteLine("Lielākais skaitlis no šiem ir " + (Lielakais));
+
+            //-----------------------------------------------------
 
 
+            Console.WriteLine("Lūdzu, ievadiet pirmo skaitli");
+            string yourNumber7 = Console.ReadLine();
+            int tresais = int.Parse(yourNumber7);
 
+            Console.WriteLine("Lūdzu, ievadiet otro skaitli");
 
+            string yourNumber8 = Console.ReadLine();
+            int ceturtais = int.Parse(yourNumber8);
+
+            int Mazakais = Math.Min(tresais, ceturtais);
+            Console.WriteLine("Mazākais skaitlis no šiem ir " + (Mazakais));
 
         }
     }
