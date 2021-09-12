@@ -25,7 +25,7 @@ namespace ConsoleApp2
             //-------------------------------------------------
 
 
-
+            Console.WriteLine("Uzdevums ar lielākā skaitļa noteikšanu");
 
             Console.WriteLine("Lūdzu, ievadiet pirmo skaitli");
             string yourNumber5 = Console.ReadLine();
@@ -42,6 +42,8 @@ namespace ConsoleApp2
             //-----------------------------------------------------
 
 
+            Console.WriteLine("Uzdevums ar mazākā skaitļa noteikšanu");
+
             Console.WriteLine("Lūdzu, ievadiet pirmo skaitli");
             string yourNumber7 = Console.ReadLine();
             int tresais = int.Parse(yourNumber7);
@@ -53,6 +55,19 @@ namespace ConsoleApp2
 
             int Mazakais = Math.Min(tresais, ceturtais);
             Console.WriteLine("Mazākais skaitlis no šiem ir " + (Mazakais));
+
+            //----------------------------------------------------
+            Console.WriteLine("Uzdevums ar dalījuma atlikumu");
+            Console.WriteLine("Lūdzu, ievadiet pirmo skaitli");
+            string yourNumber9 = Console.ReadLine();
+            int piektais = int.Parse(yourNumber9);
+
+            Console.WriteLine("Lūdzu, ievadiet otro skaitli");
+
+            string yourNumber10 = Console.ReadLine();
+            int sestais = int.Parse(yourNumber10);
+            int Dalijums = piektais % sestais;
+            Console.WriteLine("Skaitļu dalījuma atlikums ir " + (Dalijums));
 
         }
     }
